@@ -8,12 +8,19 @@ int totalDays(int year, int month);
 int start(int year, int month);
 int showCalendar(int year, int month);
 
-int main() {
-    int year, month;
+void testMain(){
+    int year,month;
     cout << "\nEnter year: "; cin >> year;
     cout << "Enter month: "; cin >> month;
     showCalendar(year,month);
     cout << endl;
+
+
+}
+
+int main() {
+
+    testMain();
 
     system("pause");
     return 0;
